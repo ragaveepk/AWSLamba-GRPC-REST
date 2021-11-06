@@ -18,7 +18,7 @@ AWS Deployment video -[https://youtu.be/v-6qXG-t8iE](https://youtu.be/v-6qXG-t8i
 
 Please follow the following steps to run the project
 - Use IntelliJ IDEA with the Scala plugin installed along with sbt.
-- Enter the following URL and click “Clone”: https://github.com/ragaveepk/cs441_homework2.git
+- Enter the following URL and click “Clone”: https://github.com/ragaveepk/cs441_homework3.git
 
 - When prompted click “Yes” in the dialog box
 
