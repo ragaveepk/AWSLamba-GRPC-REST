@@ -10,7 +10,7 @@ return log messages in the specified time interval when client call is made.
 
 AWS Deployment video -[https://youtu.be/v-6qXG-t8iE](https://youtu.be/v-6qXG-t8iE)
 
-##Documentation
+## Documentation
 After Cloning the project , please find the Scaladoc documentation in docs folder.
 
 ## Setup Requirements
