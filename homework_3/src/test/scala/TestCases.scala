@@ -17,7 +17,7 @@ class TestCases extends AnyFlatSpec with Matchers{
     val formatter = DateTimeFormatter.ofPattern("HH:mm:ss.SSS")
     val startTime = LocalTime.parse(config.getString("TimeStamp" + "." + "Time"), formatter)
 
-    val startTime_test = LocalTime .parse("18:43:00.251", formatter)
+    val startTime_test = LocalTime .parse("16:42:49.443", formatter)
 
     assert(startTime ==  startTime_test)
   }
@@ -26,7 +26,7 @@ class TestCases extends AnyFlatSpec with Matchers{
     val formatter = DateTimeFormatter.ofPattern("HH:mm:ss.SSS")
     val timeinterval = LocalTime.parse(config.getString("TimeStamp" + "." + "interval"), formatter)
 
-    val timeinterval_test = LocalTime .parse("02:00:02.000", formatter)
+    val timeinterval_test = LocalTime .parse("01:01:02.000", formatter)
 
     assert(timeinterval ==  timeinterval_test)
   }

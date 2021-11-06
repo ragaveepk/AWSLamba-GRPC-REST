@@ -10,12 +10,10 @@ return log messages in the specified time interval when client call is made.
 
 AWS Deployment video -[https://youtu.be/v-6qXG-t8iE](https://youtu.be/v-6qXG-t8iE)
 
-## Documentation
-After Cloning the project , please find the Scaladoc documentation in docs folder.
-
 ## Setup Requirements
 - Create AWS Account as root user and create IAM role which has Administrator policy.
 - Install SBT
+
 ## How to Install
 
 Please follow the following steps to run the project
@@ -28,13 +26,13 @@ Please follow the following steps to run the project
 
 - Go to homework3 folder- src/main/scala/ and open the client class.
 
-- Open the terminal nad navigate to homework3 path and run sbt clean  and sbt compile in the terminal
+- Open the terminal nad navigate to homework3 path and run `sbt clean`  and `sbt compile` in the terminal
 
-- Open the terminal and navigate to homework3_Service folder and run sbt clean compile assembly command.
+- Open the terminal and navigate to homework3_Service folder and run `sbt clean compile assembly` command.
 
-- After successful compilation, enter 'sbt run' in the  client terminal
+- After successful compilation, enter `sbt run` in the  client terminal.
 
-## Steps to  create Jar File for GRPC - Server
+## Steps to  create Jar File for Server -GRPC
 
 A Jar file needs to be created for the Homework3_Server project which need to be uploaded to AWS lambda function to act as server for GRPC
 Please follow these steps:

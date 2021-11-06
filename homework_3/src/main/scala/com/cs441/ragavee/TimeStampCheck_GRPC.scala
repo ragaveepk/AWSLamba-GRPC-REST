@@ -18,7 +18,7 @@ class TimeStampCheck_GRPC(private var url: String)  {
         "Content-Type" -> "application/grpc+proto",
         "Accept" -> "application/grpc+proto"
       ))
-      .timeout(connTimeoutMs = 20000, readTimeoutMs = 10000)
+      .timeout(connTimeoutMs = 2000000, readTimeoutMs = 1000000)
       .postData(expression.toByteArray)
 
     // Parse response from API to protobuf Response object
