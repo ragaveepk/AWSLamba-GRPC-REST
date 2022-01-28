@@ -1,14 +1,10 @@
-## CS 441  Homework 3
-
-Ragavee Poosappagounder Kandavel
+## AWS Lamba- GRPC - REST
 
 ## Introduction
 
 The project is about creating a  GRPC and REST service - deployed in AWS Lambda which performs search on Logfile to
 return log messages in the specified time interval when client call is made.
 
-
-AWS Deployment video -[https://youtu.be/v-6qXG-t8iE](https://youtu.be/v-6qXG-t8iE)
 
 ## Setup Requirements
 - Create AWS Account as root user and create IAM role which has Administrator policy.
