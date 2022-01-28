@@ -14,7 +14,7 @@ return log messages in the specified time interval when client call is made.
 
 Please follow the following steps to run the project
 - Use IntelliJ IDEA with the Scala plugin installed along with sbt.
-- Enter the following URL and click “Clone”: https://github.com/ragaveepk/cs441_homework3.git
+- Enter the following URL and click “Clone”: https://github.com/ragaveepk/AWSLamba-GRPC-REST.git
 
 - When prompted click “Yes” in the dialog box
 
